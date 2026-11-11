@@ -1,0 +1,14 @@
+{
+  "routes": [
+    {
+      "path": "/about",
+      "responses": [
+        {
+          "status": 200,
+          "headers": [],
+          "text": "本地只读邮件来源"
+        }
+      ]
+    }
+  ]
+}

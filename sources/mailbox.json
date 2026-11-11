@@ -1,0 +1,11 @@
+{
+  "uidvalidity": 700,
+  "uidnext": 12,
+  "messages": {
+    "2": "mail-a.eml",
+    "7": "mail-b.eml",
+    "11": "mail-bad.eml"
+  },
+  "reverse_fetch": true,
+  "unsolicited": true
+}

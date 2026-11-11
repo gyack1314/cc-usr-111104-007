@@ -1,0 +1,31 @@
+From: source@example.invalid
+To: course@example.invalid
+Message-ID: <shared@example.invalid>
+Subject: =?utf-8?b?5ZCI5oiQ5L2c5ZOB6LWE5paZ?=
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="synthetic-course-boundary"
+
+--synthetic-course-boundary
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+正文不进入附件库
+
+--synthetic-course-boundary
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+ filename*=utf-8''%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%B5%84%E6%96%99.bin
+MIME-Version: 1.0
+
+@@invalid-base64@@
+
+--synthetic-course-boundary
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Disposition: inline; filename="same.png"
+MIME-Version: 1.0
+
+cGljdHVyZQ==
+
+--synthetic-course-boundary--
